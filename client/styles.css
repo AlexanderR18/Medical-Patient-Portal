@@ -1,0 +1,170 @@
+body, html {
+    margin: 0;
+    
+}
+
+
+.login-page{
+
+    /*Empty*/
+    
+}
+
+
+.banner{
+    /*background-color: #0b4b64;*/
+    background-color: #399248;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.banner-content{
+    display:flex;
+    align-items: center;
+    width: 100%;
+
+   
+}
+
+
+.electrolize-regular {
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1{
+    margin:0;
+    font-family: Electrolize, Georgia;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    text-align: center;
+    padding:50px;
+    font-size: 40px;
+    
+}
+
+
+
+.form-container{
+    
+   
+    
+    
+}
+
+.only-form-image-container{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:calc(100vh - 50px);
+    background-color: rgb(232, 237, 227);
+
+    background-image: url("images/ray.png");
+    background-size:cover;
+    
+}
+
+#login-form{
+    color:rgb(5, 5, 5);
+    background-color: rgba(217, 232, 239, 0.943);
+    width:500px;
+    height:650px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding:0px;
+
+}
+
+#logo-image{
+
+    height:250px;
+    width: 250px;
+
+    margin-left: 125px;
+    margin-top: 50px;
+
+
+    
+}
+
+
+.form-buttons{
+    transform: translateY(15px);
+}
+
+#login-form h2{
+    margin-bottom:20px;
+    text-align: center;
+    font-family: Georgia;
+}
+
+.login-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+
+.login-info input{
+
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing:border-box;
+}
+
+#login-button{
+    width:90%;
+    padding: 10px;
+    border-radius: 8px;
+    cursor:pointer;
+    font-size:15px;
+    color: white;
+    border-width: 0;
+    background-color: #156e24;
+    font-family: Georgrgb(23, 127, 15)
+
+}
+
+#login-button:hover{
+    background-color: rgb(6, 77, 15);
+}
+
+
+#login-picture-container{
+
+height: 650px;
+width:845px;
+    
+}
+
+#login-image{
+   
+    height:650px;
+    width:845px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.register{
+    color: #156e24;
+    font-size: 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Georgia;
+
+}

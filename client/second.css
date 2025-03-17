@@ -1,0 +1,133 @@
+/* Dashboard Page */
+
+body, html{
+    margin:0;
+    height:100%;
+    width:100%;
+}
+
+
+/* Banner */
+
+
+.banner-container{
+
+   
+}
+
+.banner-content{
+    width: 100%;
+    height:100px;
+    display:flex;
+    flex-direction: row;
+    justify-content:right;
+    gap:20px;
+    background-color: #239536;
+}
+
+.username p, .log-out p, .account p {
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(253, 253, 253);
+}
+
+/* Dashboard Content */
+
+.dashboard{
+   height:100vh;
+   width:100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.dashboard-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    background-color: rgb(232, 237, 227);
+}
+
+.page-outline{
+    
+}
+
+.dashboard-area{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    /* background-color: rgb(135, 229, 40);*/
+    background-image: url("images/gback.png");
+    background-size: cover;
+}
+
+
+
+/* Main Buttons */
+
+
+.main-buttons-container{
+    display:flex;
+    height:400px;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+
+    width: fit-content;
+    
+    margin:auto;
+}
+
+.main-buttons{
+    display:flex;
+    height:400px;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+}
+
+.appointments{
+    height:400px;
+    width: 300px;
+    background-color: rgb(246, 248, 245);
+    border-radius: 10px;
+}
+
+.results{
+    height:400px;
+    width: 300px;
+    background-color: rgb(246, 248, 245);
+    border-radius: 10px;
+}
+
+.medications{
+    height:400px;
+    width: 300px;
+    background-color:#fafbfa;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.vitals{
+    height:400px;
+    width: 300px;
+    background-color: rgb(246, 248, 245);
+    border-radius: 10px;
+}
+
+
+#med-icon{
+    height:150px;
+    width:150x;
+    transform: translateX(15px);
+    
+    
+
+}

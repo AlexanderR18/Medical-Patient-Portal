@@ -11,26 +11,79 @@ body, html{
 
 
 .banner-container{
-
-   
-}
-
-.banner-content{
     width: 100%;
     height:100px;
     display:flex;
     flex-direction: row;
     justify-content:right;
+    align-items:center;
+    background-color: #397c92;
     gap:20px;
-    background-color: #239536;
 }
 
-.username p, .log-out p, .account p {
-    margin-right: 100px;
-    margin-top: 30px;
-    font-size: 30px;
-    color: rgb(253, 253, 253);
+
+.logo p{
+    font-size:50px;
+    color:rgb(237, 235, 235);
 }
+
+
+.logo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:100%;
+    margin-right:310px;
+
+    
+}
+
+/*
+#logo-icon{
+    height:100px;
+    width:100px; 
+    transform: scale(1.55);
+}
+*/
+
+
+.account{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:100%;
+    transform: translateX(10px);
+}
+
+#account-icon{
+    height:75px;
+    width:75px;
+}
+
+.username{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    height:100%;
+}
+
+.log-out{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    height:100%;
+    margin-right:50px;
+}
+
+
+
+
+
+.username p, .log-out p, .account p {
+    font-size: 30px;
+    color: white;
+}
+
 
 /* Dashboard Content */
 
@@ -41,12 +94,28 @@ body, html{
    flex-direction: column;
 }
 
+.left-sidebar{
+    width: 200px;
+    height:100vh;
+    position:fixed;
+    left:0;
+    background-color: white;
+}
+
+.right-sidebar{
+    width: 200px;
+    height:100vh;
+    position:fixed;
+    right:0;
+    background-color: white;
+}
+
 .dashboard-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex: 1;
-    background-color: rgb(232, 237, 227);
+    background-color: rgb(211, 237, 247);
 }
 
 .page-outline{
@@ -60,8 +129,28 @@ body, html{
     justify-content: center;
     flex: 1;
     /* background-color: rgb(135, 229, 40);*/
+    /*
     background-image: url("images/gback.png");
     background-size: cover;
+    */
+}
+
+.dashboard-area p{
+    margin-left:340px;
+    margin-right: 340px;
+    font-size:25px;
+    color:#165468;
+}
+
+h{
+    font-size: 35px;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 100px;
+    margin-left:340px;
+    color:#165468;
 }
 
 
@@ -75,33 +164,62 @@ body, html{
     flex-direction: row;
     justify-content: center;
     gap:10px;
-
     width: fit-content;
-    
     margin:auto;
+    transform: translateY(-40px);
 }
 
-.main-buttons{
-    display:flex;
-    height:400px;
-    flex-direction: row;
-    justify-content: center;
-    gap:20px;
-}
+
+/* Appointments Button */
+
 
 .appointments{
     height:400px;
     width: 300px;
-    background-color: rgb(246, 248, 245);
+    background-color:#fafbfa;
     border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
 }
+
+#calendar-icon{
+    height:150px;
+    width:150x;
+    margin-top:100px;
+}
+
+.appointments p{
+    font-size: 25px;
+}
+
+
+/* Results Button */
 
 .results{
     height:400px;
-    width: 300px;
-    background-color: rgb(246, 248, 245);
+    width:300px;
+    background-color:#fafbfa;
     border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#results-icon{
+    height:150px;
+    width:150x;
+    margin-top:100px;
+   
+}
+
+.results p{
+    font-size: 25px;
+}
+
+
+
+/* Medications Button */
 
 .medications{
     height:400px;
@@ -110,24 +228,46 @@ body, html{
     border-radius: 10px;
     display:flex;
     flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    
+    align-items: center; 
 }
-
-.vitals{
-    height:400px;
-    width: 300px;
-    background-color: rgb(246, 248, 245);
-    border-radius: 10px;
-}
-
 
 #med-icon{
     height:150px;
     width:150x;
     transform: translateX(15px);
-    
-    
-
+    margin-top:100px;
 }
+
+
+.medications p{
+    font-size: 25px;
+}
+
+
+/* Vitals Button */
+
+.vitals{
+    height:400px;
+    width:300px;
+    background-color:#fafbfa;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vitals-icon{
+    height:150px;
+    width:150x;
+    margin-top:100px;
+    transform: translateX(-15px);
+}
+
+.vitals p{
+    font-size: 25px;
+}
+
+
+
+
+

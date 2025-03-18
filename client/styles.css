@@ -13,7 +13,7 @@ body, html {
 
 .banner{
     /*background-color: #0b4b64;*/
-    background-color: #399248;
+    background-color: #397c92;
     height:50px;
     display: flex;
     align-items: center;
@@ -64,7 +64,7 @@ h1{
     height:calc(100vh - 50px);
     background-color: rgb(232, 237, 227);
 
-    background-image: url("images/ray.png");
+    background-image: url("");
     background-size:cover;
     
 }
@@ -87,10 +87,7 @@ h1{
     width: 250px;
 
     margin-left: 125px;
-    margin-top: 50px;
-
-
-    
+    margin-top: 50px;  
 }
 
 
@@ -131,13 +128,13 @@ h1{
     font-size:15px;
     color: white;
     border-width: 0;
-    background-color: #156e24;
+    background-color: #397c92;
     font-family: Georgrgb(23, 127, 15)
 
 }
 
 #login-button:hover{
-    background-color: rgb(6, 77, 15);
+    background-color: rgb(34, 77, 177);
 }
 
 
@@ -159,7 +156,7 @@ width:845px;
 
 
 .register{
-    color: #156e24;
+    color: #397c92;
     font-size: 15px;
     display:flex;
     flex-direction: column;
